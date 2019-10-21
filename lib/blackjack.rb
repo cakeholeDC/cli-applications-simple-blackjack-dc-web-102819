@@ -43,7 +43,6 @@ end
 
 def invalid_command(current_hand)
   puts "Please enter a valid command"
-  hit(current_hand)
 end
 
 #####################################################
