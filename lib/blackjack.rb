@@ -39,13 +39,12 @@ def hit?(current_hand)
     current_hand 
   else
     invalid_command
-    hit?(current_hand)
   end
 end
 
 def invalid_command
   puts "Please enter a valid command"
-  #get_user_input
+  get_user_input
 end
 
 #####################################################
