@@ -30,7 +30,6 @@ def initial_round
 end
 
 def hit?(current_hand)
-  hit = 0
   prompt_user
   answer = get_user_input
   if answer == "h"
