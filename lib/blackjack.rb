@@ -37,13 +37,13 @@ def hit?(current_hand)
   elsif answer == "s"
     current_hand 
   else
-    invalid_command
+    invalid_command(current_hand)
   end
 end
 
-def invalid_command
+def invalid_command(current_hand)
   puts "Please enter a valid command"
-  get_user_input
+  hit(current_hand)
 end
 
 #####################################################
