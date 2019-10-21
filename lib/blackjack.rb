@@ -34,7 +34,7 @@ def hit?(current_hand)
   answer = get_user_input
   if answer == "h"
     current_hand += deal_card
-  elseif answer == "s"
+  elsif answer == "s"
     current_hand 
   else
     invalid_command
